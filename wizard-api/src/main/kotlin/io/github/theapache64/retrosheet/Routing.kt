@@ -319,7 +319,7 @@ ${
                             // Ktorfit
                             implementation("de.jensklingenberg.ktorfit:ktorfit-lib:2.5.1")
                             
-                            // Retrosheet
+                            // Retrosheet : [latest version - i promise!]
                             implementation("io.github.theapache64:retrosheet:3.0.3")
                             
                             ...

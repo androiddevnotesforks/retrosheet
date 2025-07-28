@@ -54,7 +54,7 @@ dependencies {
     implementation("io.ktor:ktor-client-content-negotiation:3.1.1")
     implementation("io.ktor:ktor-serialization-kotlinx-json:3.1.1")
 
-    // Retrosheet v3
+    // Retrosheet v3 : [latest version - i promise!]
     implementation("io.github.theapache64:retrosheet:3.0.3") // Note the new artifact coordinates
 
     // You may need SLF4J No-op implementation

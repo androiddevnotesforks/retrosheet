@@ -26,6 +26,7 @@ repositories {
 }
 
 dependencies {
+    // [latest version - i promise!]
     implementation("io.github.theapache64:retrosheet:3.0.3")
 }
 ```
@@ -203,6 +204,7 @@ dependencies {
     implementation("io.ktor:ktor-client-content-negotiation:3.1.3")
     implementation("io.ktor:ktor-serialization-kotlinx-json:3.1.3")
     implementation("de.jensklingenberg.ktorfit:ktorfit-lib:2.5.1")
+    // [latest version - i promise!]
     implementation("io.github.theapache64:retrosheet:3.0.3")
     testImplementation(kotlin("test"))
 }
