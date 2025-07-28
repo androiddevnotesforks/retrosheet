@@ -1,3 +1,7 @@
+@file:OptIn(ExperimentalWasmDsl::class)
+
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
+
 plugins {
     alias(libs.plugins.multiplatform)
     alias(libs.plugins.publish)
@@ -12,6 +16,12 @@ kotlin {
     jvm()
 
     js {
+        browser()
+        binaries.executable()
+    }
+
+    // Add WASM support
+    wasmJs {
         browser()
         binaries.executable()
     }
