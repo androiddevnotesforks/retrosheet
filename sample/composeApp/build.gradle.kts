@@ -33,13 +33,7 @@ kotlin {
         }
         binaries.executable()
     }
-    androidTarget {
-        compilations.all {
-            kotlinOptions {
-                jvmTarget = "17"
-            }
-        }
-    }
+    androidTarget { }
 
     listOf(
         iosX64(),
