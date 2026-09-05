@@ -1,4 +1,7 @@
 # 📝 retrosheet
+
+![](https://img.shields.io/badge/%23No_AI_used-00000)
+
 Turn Google Spreadsheet to JSON endpoint.
 
 ![https://github.com/theapache64/notes](demo.png)
